@@ -12,6 +12,12 @@ return {
     end
   },
   {
+    "nvim-telescope/telescope-symbols.nvim",
+    config = function()
+      vim.keymap.set('n', '<leader>fss', ":Telescope symbols<CR>")
+    end
+  },
+  {
     "nvim-telescope/telescope-ui-select.nvim",
     config = function()
       require("telescope").setup({
