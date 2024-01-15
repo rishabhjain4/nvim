@@ -7,7 +7,8 @@ return {
   config = function()
     local alpha = require("alpha")
     local dashboard = require("alpha.themes.startify")
-    dashboard.section.position = "center"
+    -- dashboard.section.position = "center"
+    dashboard.section.header.opts.hl = "AlphaHeader"
     dashboard.section.header.opts.position = "center"
 
     dashboard.section.header.val = {
