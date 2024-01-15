@@ -12,6 +12,7 @@ return {
 
     opts = {
       auto_install = true,
+      ensure_installed = {"lua_ls","marksman","gopls","pyright"}
     }
 
   },
@@ -32,6 +33,10 @@ return {
       })
 
       lspconfig.gopls.setup({
+        capabilities = capabilities
+      })
+
+      lspconfig.pyright.setup({
         capabilities = capabilities
       })
 
