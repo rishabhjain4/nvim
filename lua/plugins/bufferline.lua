@@ -7,16 +7,7 @@ return {
 		local bufferline = require("bufferline")
 		bufferline.setup({
 			options = {
-				offsets = {
-					{
-						filetype = "NvimTree",
-						text = "File Explorer",
-						text_align = "center",
-						separator = true,
-					},
-				},
-				color_icons = true, -- whether or not to add the filetype icon highlights
-				separator_style = "thick",
+				separator_style = "slant",
 			},
 		})
 	end,

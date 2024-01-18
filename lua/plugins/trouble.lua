@@ -6,5 +6,20 @@ return {
 		-- or leave it empty to use the default settings
 		-- refer to the configuration section below
 	},
+	config = function()
+		vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<CR>", { desc = "Toggle Trouble" })
+		vim.keymap.set(
+			"n",
+			"<leader>xw",
+			"<cmd>TroubleToggle workspace_diagnostics<CR>",
+			{ desc = "Workspace Diagnostics" }
+		)
+		vim.keymap.set(
+			"n",
+			"<leader>xd",
+			"<cmd>TroubleToggle document_diagnostics<CR>",
+			{ desc = "Document Diagnostics" }
+		)
+		vim.keymap.set("n", "<leader>xq", "<cmd>TroubleToggle quickfix<CR>", { desc = "Toggle Quickfix" })
+	end,
 }
---
