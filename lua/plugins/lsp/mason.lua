@@ -26,6 +26,8 @@ return {
 				"pyright",
 				"marksman",
 				"gopls",
+				"html",
+				"cssls",
 			},
 			automatic_installation = true,
 		})

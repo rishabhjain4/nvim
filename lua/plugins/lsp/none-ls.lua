@@ -20,6 +20,8 @@ return {
 				"pylint", -- python linter
 				"eslint_d", -- js linter
 				"markdownlint", -- markdown linter
+				"djlint",
+				"htmlhint",
 			},
 		})
 
@@ -42,7 +44,9 @@ return {
 				formatting.isort,
 				formatting.black,
 				formatting.markdownlint,
+				formatting.djlint,
 				diagnostics.pylint,
+				diagnostics.djlint,
 				diagnostics.markdownlint,
 			},
 			-- configure format on save
