@@ -9,7 +9,7 @@ return {
 			vim.keymap.set("n", "<leader><space>", builtin.find_files, { desc = "Find Files" })
 			vim.keymap.set("n", "<leader>/", builtin.live_grep, { desc = "Live Grep (root dir)" })
 			vim.keymap.set("n", "<leader>ss", builtin.symbols, { desc = "Symbols" })
-			vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Buffers" })
+			vim.keymap.set("n", "<leader>,", builtin.buffers, { desc = "Buffers" })
 			vim.keymap.set("n", "<leader>sG", "<cmd>Telescope live_grep search_dirs=.<CR>", { desc = "Grep(cwd)" })
 		end,
 	},

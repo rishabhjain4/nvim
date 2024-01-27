@@ -3,8 +3,8 @@ return {
 	version = false, -- wait till new 0.7.0 release to put it back on semvevent = "Lazy",
 	event = { "BufReadPost", "BufWritePost", "BufNewFile" },
 	opts = {
-		symbol = "▏",
-		--symbol = "!",
+		--symbol = "▏",
+		symbol = "|",
 		options = { try_as_border = true },
 	},
 	init = function()
