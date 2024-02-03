@@ -22,10 +22,6 @@ return {
 				name = "personal",
 				path = "~/gringotts/vault/notes",
 			},
-			{
-				name = "blog",
-				path = "~/rishabhjain4.github.io/_posts",
-			},
 		},
 		templates = {
 			subdir = "Templates",

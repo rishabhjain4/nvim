@@ -6,4 +6,5 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set nu")
 vim.cmd("set rnu")
 vim.cmd("set conceallevel=1")
+--- im.cmd("set -g allow-passthrough on")
 vim.g.mapleader = " "
