@@ -22,6 +22,9 @@ keymap("n", "<leader>bb", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
 
 keymap({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
 
+keymap({ "n", "v" }, "<leader>y", '"+y', { desc = "Copy to clipboard" })
+keymap({ "n", "v" }, "<leader>p", '"+p', { desc = "Paste from clipboard" })
+
 keymap("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
 
 keymap("n", "<leader>wd", "<C-W>c", { desc = "Delete window", remap = true })
