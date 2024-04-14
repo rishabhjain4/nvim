@@ -11,6 +11,9 @@ return {
 			["<leader>x"] = { name = "+trouble" },
 			["<leader>g"] = { name = "+git" },
 			["<leader>e"] = { name = "+neotree" },
+			["<leader>b"] = { name = "+buffers" },
+			["<leader>d"] = { name = "+debug" },
+			["<leader>n"] = { name = "+notification" },
 		})
 	end,
 }
